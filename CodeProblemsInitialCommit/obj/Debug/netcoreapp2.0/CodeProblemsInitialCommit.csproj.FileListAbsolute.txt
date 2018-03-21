@@ -1,0 +1,11 @@
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\bin\Debug\netcoreapp2.0\CodeProblemsInitialCommit.deps.json
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\bin\Debug\netcoreapp2.0\CodeProblemsInitialCommit.runtimeconfig.json
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\bin\Debug\netcoreapp2.0\CodeProblemsInitialCommit.runtimeconfig.dev.json
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\bin\Debug\netcoreapp2.0\CodeProblemsInitialCommit.dll
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\bin\Debug\netcoreapp2.0\CodeProblemsInitialCommit.pdb
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.csprojResolveAssemblyReference.cache
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.csproj.CoreCompileInputs.cache
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.AssemblyInfoInputs.cache
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.AssemblyInfo.cs
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.dll
+C:\Users\CBrown2\Source\Repos\codeProblems\CodeProblemsInitialCommit\CodeProblemsInitialCommit\obj\Debug\netcoreapp2.0\CodeProblemsInitialCommit.pdb
