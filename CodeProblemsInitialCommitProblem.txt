@@ -1,0 +1,58 @@
+The Problem
+
+I need to build a complex "create order request" object, to be used in 
+public void CreateOrder(CreateOrderRequest createOrderRequest).
+The object looks something like this-
+
+CreateOrderRequest {
+	public List<Attribute> Attributes { get; set; }
+        public List<Item> NonPrescriptionItems { get; set; }
+        public OrderInformation OrderInformation { get; set; }
+        public OrderTotals OrderTotals { get; set; }
+        public PaymentInformation PaymentInformation { get; set; }
+        public List<PrescriptionGroup> PrescriptionGroupItems { get; set; }
+        public ShippingInformation ShippingInformation { get; set; }
+}
+
+...
+
+CreateOrderRequest.Item {
+        public string Upc { get; set; }
+        public int Quantity { get; set; }
+        public decimal ItemPrice { get; set; }
+        public decimal TaxRate { get; set; }
+        public decimal TotalTax { get; set; }
+        public List<Discount> Discounts { get; set; }
+}
+
+CreateOrderRequest.Item.Discount {
+        public string DiscountCode { get; set; }
+        public string SubCode { get; set; }
+        public decimal Amount { get; set; }
+}
+
+...
+
+CreateOrderRequest.ShippingInformation {
+        public Address ShippingAddress { get; set; }
+        public string ShippingPhone { get; set; }
+        public ShippingServiceLevelEnum ShippingServiceLevel { get; set; }
+        public bool IsSignatureRequired { get; set; }
+        public DateTime OriginalDeliveryQuoteDate { get; set; }
+}
+
+Address {
+        public string RecipientName { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
+}
+
+...and so on.  What I am looking for is a readable, scaleable soloution to creating different objects so that I can test the CreateOrder() function with different parameter values.  Here is a simple example:
+
+Build this object -> default values.
+Build this object -> default values, with CreateOrderRequest.Item.UPC set to 3 and CreateOrderRequest.Item.TaxRate set to .1.
+Build this object -> default values, with CreateOrderRequest.ShippingInformation.ShippingServiceAddress.ShippingAddress set to some specific U.S. address.
